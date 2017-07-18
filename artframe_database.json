@@ -1,0 +1,93 @@
+{
+  "artworks" : {
+    "a" : {
+      "author" : {
+        "name" : "shadows"
+      },
+      "dateAdded" : "2017-02-25",
+      "price" : 0.99,
+      "title" : "River",
+      "url" : "https://www.w3schools.com/css/img_fjords.jpg",
+      "urlPreview" : "https://www.w3schools.com/css/img_fjords.jpg",
+      "usersFavorites" : {
+        "EvvrnRnfdieD8SYVEooA8IxfOYJ3" : true,
+        "cboPdHR2r6XvHRjwWbrWKl9lL9t1" : true,
+        "sdglX3ZviVSHYnlacLcwpbvUwGK2" : true
+      },
+      "usersOwned" : {
+        "EvvrnRnfdieD8SYVEooA8IxfOYJ3" : true
+      }
+    },
+    "b" : {
+      "author" : {
+        "name" : "moonez"
+      },
+      "dateAdded" : "2017-01-23",
+      "price" : 1.99,
+      "title" : "Flame",
+      "url" : "https://www.w3schools.com/css/img_lights.jpg",
+      "urlPreview" : "https://www.w3schools.com/css/img_lights.jpg",
+      "usersOwned" : {
+        "EvvrnRnfdieD8SYVEooA8IxfOYJ3" : true
+      }
+    },
+    "c" : {
+      "author" : {
+        "name" : "shanti"
+      },
+      "dateAdded" : "2017-03-01",
+      "price" : 2.99,
+      "title" : "water",
+      "url" : "https://www.w3schools.com/css/img_lights.jpg",
+      "urlPreview" : "https://www.w3schools.com/css/img_lights.jpg",
+      "usersFavorites" : {
+        "Btrr0nblIbOpF8KzEna5mOmIJHa2" : true,
+        "EvvrnRnfdieD8SYVEooA8IxfOYJ3" : true
+      }
+    }
+  },
+  "authors" : {
+    "a" : {
+      "artworks" : {
+        "a" : true
+      },
+      "name" : "quadshadows"
+    },
+    "b" : {
+      "artworks" : {
+        "b" : true
+      },
+      "name" : "moonez"
+    }
+  },
+  "users" : {
+    "EvvrnRnfdieD8SYVEooA8IxfOYJ3" : {
+      "email" : "e@a.com",
+      "favorites" : {
+        "a" : true,
+        "c" : true
+      },
+      "frames" : {
+        "-KhNodgaXzi4h7zCIkf1" : {
+          "author" : "shadows",
+          "name" : "sala",
+          "title" : "River",
+          "url" : "https://www.w3schools.com/css/img_fjords.jpg",
+          "urlPreview" : "https://www.w3schools.com/css/img_fjords.jpg"
+        }
+      },
+      "owned" : {
+        "a" : true,
+        "b" : true
+      },
+      "userName" : "esteban"
+    },
+    "cboPdHR2r6XvHRjwWbrWKl9lL9t1" : {
+      "email" : "epas@gmail.com",
+      "favorites" : {
+        "a" : true
+      },
+      "userName" : "epas1117"
+    }
+  }
+}
