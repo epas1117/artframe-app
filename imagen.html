@@ -1,0 +1,46 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+<title>My Title</title>
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+<script>
+
+// Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBEMPE0Fq8_5CzlXj754KyQuybm8lN23L0",
+    authDomain: "appvisualizarimagenesmonitor.firebaseapp.com",
+    databaseURL: "https://appvisualizarimagenesmonitor.firebaseio.com",
+    projectId: "appvisualizarimagenesmonitor",
+    storageBucket: "appvisualizarimagenesmonitor.appspot.com",
+    messagingSenderId: "1064280677074"
+  };
+  firebase.initializeApp(config);
+
+var db = firebase.database();
+
+var imagenActual = db.ref('monitores/a/imagenActual');
+imagenActual.on('value', function(snapshot) {
+   var imagen = snapshot.val();
+   var tag = document.getElementById('myimage').src=imagen.imagenURL;
+});
+
+</script>
+<style type="text/css">
+html {
+	background-color: black;
+}
+</style>
+</head>
+
+<body>
+
+<div style='position:absolute;z-index:0;left:0;top:0;width:100%;height:100%'>
+  <img id="myimage" style='width:100%;height:100%'>
+</div>
+
+</body>
+</html>
